@@ -1,0 +1,69 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--Yellow);
+}
+
+p {
+    font-size: 16px;
+}
+
+.card-body {
+    margin: 0 auto;
+    padding: 1.75% 1.5%;
+    border: 1px solid var(--Black);
+    box-shadow: 8px 8px 0 0 var(--Black);
+    border-radius: 16px;
+    background-color: white;
+    max-width: max-content;
+    margin-top: 10%;
+    height: 500px;
+}
+
+.card-img > img {
+    border-radius: 10px;
+}
+
+.card-text {
+    padding: 10px 0;
+}
+
+.card-user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    float: left;
+    align-items: center;
+}
+
+.p-text {
+    color: var(--Grey);
+}
+
+.card-user-text {
+    font-family: 'Figtree';
+}
+
+.highlight {
+    font-weight: 600;
+    background-color: var(--Yellow);
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 4px;
+    font-family: 'Figtree';
+}
+
+.heading {
+    font-weight: 800;
+    font-family: 'Figtree';
+    color: var(--Black);
+}
+
+.heading:hover {
+    cursor: pointer;
+    color: var(--Yellow);
+}
